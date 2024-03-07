@@ -1,0 +1,6 @@
+namespace opaque_type {
+    void ffi_initialize();
+    void ffi_shutdown();
+    void ffi_process_handle(u32 handle);
+    u32 ffi_make_opaque(u32 number);
+};
